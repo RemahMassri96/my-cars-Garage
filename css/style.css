@@ -1,0 +1,25 @@
+
+
+body{
+    background-image:url(../img/page-background.jpg) ;
+    font-family: 'Noto Sans', sans-serif;
+
+    
+}
+
+
+h1{
+    color: #ffff;
+    text-align: center;
+}
+
+
+label{
+    color: #ffff;
+}
+
+
+input [type=submit]{
+    background-color: red;
+    color: #ffff;
+}

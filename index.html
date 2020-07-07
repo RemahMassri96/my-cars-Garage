@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title> My Car Garage </title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+  <header>
+      <h1> Garagi </h1>
+
+  </header>
+
+    <main>
+        <form>
+            <label for="car-model"> Model Name</label>
+             <input type="text" id="car-model">
+             <label for="car-year"> Model Year</label>
+             <input type="text" id="car-year">
+             <label for="manufacture"> Manufacture</label>
+             <select>
+                 <option name="manufacture">Germany</option>
+                 <option name ="manufacture">korea</option>
+                 <option name="manufacture">Japan</option>
+                 <option name="manufacture">France</option>
+                 <option name="manufacture">USA</option>
+             </select>
+
+             <input type="submit"> 
+
+        </form>
+
+        <table id="cars">
+
+        </table>
+
+    </main>
+    <script src ="js/car.js"></script>
+</body>
+</html>
